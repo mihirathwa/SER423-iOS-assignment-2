@@ -35,30 +35,30 @@ class SecondScreen: UIViewController {
     }
     
     //This method is invoked when the app is navigated to Second Screen by
-    //clicking the Second Screen button
+    //clicking the "Second Screen" button
     override func viewWillAppear(_ animated: Bool) {
         NSLog("Second Screen: %@", "viewWillAppear")
     }
     
     //This method is invoked when the app is navigated to Second Screen by
-    //clicking the Second Screen button
+    //clicking the "Second Screen" button
     override func viewDidAppear(_ animated: Bool) {
         NSLog("Second Screen: %@", "viewDidAppear")
     }
     
     //This method is invoked when the app is navigated to Launch Screen by clicking
-    //Launch Screen button
+    //"Launch Screen" button
     override func viewWillDisappear(_ animated: Bool) {
         NSLog("Second Screen: %@", "viewWillDisappear")
     }
     
     //This method is invoked when the app is navigated to Launch Screen by clicking
-    //Launch Screen button
+    //"Launch Screen" button
     override func viewDidDisappear(_ animated: Bool) {
         NSLog("Second Screen: %@", "viewDidDisappear")
     }
     
-    //This method is invoked Launch Screen Button is clicked
+    //This method is invoked "Launch Screen" Button is clicked
     @IBAction func SS_btnClick(_ sender: Any) {
         NSLog("Button Click: %@", "Launch Screen")
         dismiss(animated: true, completion: nil)

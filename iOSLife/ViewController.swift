@@ -35,25 +35,25 @@ class ViewController: UIViewController {
     }
 
     //This method is invoked when the app loads for the first time 
-    //or when the Launch Screen button is clicked from Second Screen
+    //or when the "Launch Screen" button is clicked from Second Screen
     override func viewWillAppear(_ animated: Bool) {
         NSLog("Launch Screen: %@", "viewWillAppear")
     }
     
     //This method is invoked when the app loads for the first time
-    //or when the Launch Screen button is clicked from Second Screen
+    //or when the "Launch Screen" button is clicked from Second Screen
     override func viewDidAppear(_ animated: Bool) {
         NSLog("Launch Screen: %@", "viewDidAppear")
     }
 
     //This method is invoked when the app is navigated to Second Screen by clicking
-    //Second Screen button
+    //"Second Screen" button
     override func viewWillDisappear(_ animated: Bool) {
         NSLog("Launch Screen: %@", "viewWillDisappear")
     }
     
     //This method is invoked when the app is navigated to Second Screen by clicking
-    //Second Screen button
+    //"Second Screen" button
     override func viewDidDisappear(_ animated: Bool) {
         NSLog("Launch Screen: %@", "viewDidDisappear")
     }
