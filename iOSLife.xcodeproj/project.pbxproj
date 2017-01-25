@@ -101,11 +101,11 @@
 			children = (
 				FBD73F911E3824760071AA86 /* AppDelegate.swift */,
 				FBD73F931E3824760071AA86 /* ViewController.swift */,
+				FBD73FBF1E3826B00071AA86 /* SecondScreen.swift */,
 				FBD73F951E3824760071AA86 /* Main.storyboard */,
 				FBD73F981E3824760071AA86 /* Assets.xcassets */,
 				FBD73F9A1E3824760071AA86 /* LaunchScreen.storyboard */,
 				FBD73F9D1E3824760071AA86 /* Info.plist */,
-				FBD73FBF1E3826B00071AA86 /* SecondScreen.swift */,
 			);
 			path = iOSLife;
 			sourceTree = "<group>";
