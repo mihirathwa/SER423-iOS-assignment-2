@@ -70,7 +70,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Launch Screen"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="p0O-iM-lCv"/>
+                                    <action selector="SS_btnClick:" destination="4ki-Fp-Ysx" eventType="touchUpInside" id="Ifd-E6-Roz"/>
                                 </connections>
                             </button>
                         </subviews>
